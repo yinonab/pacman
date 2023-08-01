@@ -19,6 +19,7 @@ function createPacman(board) {
 }
 
 function onMovePacman(ev) {
+    console.log('gFoodEatenCount:', gFoodEatenCount)
     // DONE: use getNextLocation(), nextCell
     if (!gGame.isOn) return
     const nextLocation = getNextLocation(ev.key)
@@ -38,6 +39,7 @@ function onMovePacman(ev) {
         //here pacman over on ghost
         removeGhost(nextLocation)
         playSound('5.wav')
+        renderGhosts()
     }
 
     if (nextCell === FOOD) {
