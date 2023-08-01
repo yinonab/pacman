@@ -1,0 +1,48 @@
+body {
+  background-color: black;
+  color:white;
+  text-align: center;
+}
+
+.board-container {
+  margin: auto;
+  background-color: blue;
+}
+h2{
+  color: yellow;
+  font-size: xx-large;
+}
+
+.cell {
+  font-size: 1.5em;
+  width: 2em;
+  height: 2em;
+}
+.modal{
+  border: 3px solid yellow;
+  background-color: rgb(224, 139, 230);
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  padding: 5px;
+  width: 400px;
+  transform: translate(-50%, -50%);
+}
+.hiden{
+  display: none;
+}
+button{
+  margin-top: 15px;
+  border: 3px solid red;
+  font-weight: bold;
+  font-size: large;
+  background-color: rgb(154, 109, 109);
+  cursor: pointer;
+  width: 250px;
+  height: 70px;
+}
+button:hover{
+  
+  cursor: pointer;
+  background-color: rgb(103, 139, 126);
+}
