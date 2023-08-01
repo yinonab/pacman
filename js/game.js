@@ -1,7 +1,7 @@
 'use strict'
 
-const WALL = '#'
-const FOOD = '.'
+const WALL = '🔧'
+const FOOD = '⁕'
 const EMPTY = ' '
 const SUPER_FOOD = '🍕'
 const CHERRY = '🍒'
